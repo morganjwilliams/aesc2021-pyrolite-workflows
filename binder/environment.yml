@@ -9,6 +9,7 @@ dependencies:
   - pip
   - umap-learn
   - ipympl
+  - nodejs # if using ipyvolume and lab
   - jupyterlab
   - pip:
       - -e git+git://github.com/morganjwilliams/pyrolite.git@develop#egg=pyrolite[skl]
