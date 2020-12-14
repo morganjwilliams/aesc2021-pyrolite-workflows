@@ -1,0 +1,14 @@
+name: aesc2021-geochemdataworkflows
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python>=3.7
+  - pip
+  - umap-learn
+  - ipympl
+  - jupyterlab
+  - pip:
+      - -e git+git://github.com/morganjwilliams/pyrolite.git@develop#egg=pyrolite[skl]
