@@ -1,1 +1,5 @@
-jupyter lab build
+# the following is required for ipyvolume widgets
+jupyter-nbextension enable widgetsnbextension --py
+
+# for ipyvolume, if using lab:
+jupyter labextension install @jupyter-widgets/jupyterlab-manager

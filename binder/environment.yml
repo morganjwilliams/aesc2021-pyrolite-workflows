@@ -12,4 +12,5 @@ dependencies:
   - nodejs # if using ipyvolume and lab
   - jupyterlab
   - pip:
+      - jupyter_contrib_nbextensions
       - -e git+git://github.com/morganjwilliams/pyrolite.git@develop#egg=pyrolite[skl]
