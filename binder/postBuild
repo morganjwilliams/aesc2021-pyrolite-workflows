@@ -1,5 +1,0 @@
-# the following is required for ipyvolume widgets
-jupyter nbextension enable widgetsnbextension
-
-# for ipyvolume, if using lab:
-jupyter labextension install @jupyter-widgets/jupyterlab-manager
